@@ -15,9 +15,12 @@ dependencies:
     sdk: flutter
 
   google_maps_flutter: ^1.0.6
+  #geo location
   geolocator: ^6.1.6
   #
   fluttertoast: ^7.1.1
+  #location
+  location: ^3.1.0
 
 dev_dependencies:
   flutter_test:

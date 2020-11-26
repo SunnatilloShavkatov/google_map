@@ -1,4 +1,4 @@
-package com.example.google_map_1
+package com.quanticuz.google_map
 
 import io.flutter.embedding.android.FlutterActivity
 
