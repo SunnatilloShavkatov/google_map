@@ -10,7 +10,7 @@ class LocationPage extends StatefulWidget {
 }
 
 class _LocationPageState extends State<LocationPage> {
-  Position _position;
+  Position? _position;
 
   @override
   Widget build(BuildContext context) {
@@ -30,7 +30,8 @@ class _LocationPageState extends State<LocationPage> {
         children: [
           Center(
             child: _position != null
-                ? Text("${_position.latitude} ${_position.longitude}")
+                ? Text(
+                    "${_position?.latitude ?? 0} ${_position?.longitude ?? 0}")
                 : Container(),
           ),
           SizedBox(height: 30),
